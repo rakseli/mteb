@@ -78,6 +78,7 @@ from .mkqa_retrieval import MKQARetrieval
 from .mlqa_retrieval import MLQARetrieval
 from .mr_tidy_retrieval import MrTidyRetrieval
 from .multi_long_doc_retrieval import MultiLongDocRetrieval
+from .finnish_swedish_long_doc_retrieval import FinnishSwedishLongDocRetrieval
 from .mupler_retrieval import MuPLeRRetrieval
 from .neu_clir2022_retrieval import (
     NeuCLIR2022Retrieval,
@@ -140,6 +141,7 @@ __all__ = [
     "CrossLingualSemanticDiscriminationWMT19",
     "CrossLingualSemanticDiscriminationWMT21",
     "EuroPIRQRetrieval",
+    "FinnishSwedishLongDocRetrieval",
     "FleursA2TRetrieval",
     "FleursT2ARetrieval",
     "GoogleSVQA2TRetrieval",
