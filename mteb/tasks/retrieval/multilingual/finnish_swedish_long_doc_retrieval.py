@@ -14,7 +14,7 @@ class FinnishSwedishLongDocRetrieval(AbsTaskRetrieval):
         reference="https://arxiv.org/abs/2511.09213",
         dataset={
             "path": "akseli-reunamo/FSLDR",
-            "revision":"ab9818d0c8ea5a658d8134a5b524f81eb3165cfb"
+            "revision":"71292584d17c2e28b0481d86553c43fa2a9ea9e6"
         },
         type="Retrieval",
         category="t2t",
