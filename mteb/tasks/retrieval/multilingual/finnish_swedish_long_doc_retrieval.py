@@ -13,8 +13,8 @@ class FinnishSwedishLongDocRetrieval(AbsTaskRetrieval):
         description="Finnish Swedish Long Doc Retrieval (FSLDR) is created by sampling lengthy Finnish and Swedish texts from HPLT v3, selecting high-quality texts, and then using Qwen/Qwen3.5-122B-A10B-GPTQ-Int4 to generate questions based on the texts' paragraphs. We annotated the generated questions and selected only meaningful questions. A dataset item consists of query text pair and associated corpus.",
         reference="https://arxiv.org/abs/2511.09213",
         dataset={
-            "path": "TurkuNLP/FSLDR",
-            "revision":"c65681001e3230215c8262dbcf2593736d980be4"
+            "path": "akseli-reunamo/FSLDR",
+            "revision":"ab9818d0c8ea5a658d8134a5b524f81eb3165cfb"
         },
         type="Retrieval",
         category="t2t",
