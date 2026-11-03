@@ -14,7 +14,7 @@ class FinnishSwedishLongDocRetrieval(AbsTaskRetrieval):
         reference="https://arxiv.org/abs/2511.09213",
         dataset={
             "path": "TurkuNLP/FSLDR",
-            "revision":"c65681001e3230215c8262dbcf2593736d980be4"
+            "revision":"71292584d17c2e28b0481d86553c43fa2a9ea9e6"
         },
         type="Retrieval",
         category="t2t",
